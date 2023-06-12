@@ -490,14 +490,14 @@ img {
   padding-bottom: 8px;
 
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--main-background-color);
   background-color: transparent;
 
   border: 1px solid #ffffff;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 footer .email-input::placeholder {
@@ -516,17 +516,17 @@ footer .email-input::placeholder {
 .subscribe-button {
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: center;
 
   padding: 8px 24px;
 
-  width: 165px;
+  min-width: 165px;
   height: 40px;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   color: var(--main-background-color);
 
   background-color: var(--accent-color);
@@ -541,6 +541,7 @@ footer .email-input::placeholder {
 }
 
 .subscribe-icon {
+  margin-left: 16px;
   fill: var(--main-background-color);
   transition: fill var(--transition);
 }
