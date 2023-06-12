@@ -736,7 +736,7 @@ footer .email-input::placeholder {
 }
 
 .policy-custom-field {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -747,19 +747,15 @@ footer .email-input::placeholder {
   cursor: pointer;
   padding: 4px 3px;
   background-color: transparent;
-  background-image: none;
-  transition: background-color var(--transition),
-    background-image var(--transition);
+  fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox:checked + .policy-custom-field {
   background-color: var(--active);
   border-style: none;
-  background-image: url(../images/check.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-origin: content-box;
 }
 
 .submit-modal-button {
