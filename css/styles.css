@@ -701,7 +701,7 @@ footer .email-input::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--dark-background-color);
+  color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
   transition: border-color var(--transition);
   outline: transparent;
@@ -718,14 +718,13 @@ footer .email-input::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.checkbox {
-  appearance: none;
+.checkbox-wrap {
+  margin-bottom: 24px;
 }
 
 .policy {
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
