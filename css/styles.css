@@ -637,8 +637,12 @@ footer .email-input::placeholder {
   color: var(--dark-background-color);
 }
 
+.modal-field-wrap {
+  margin-bottom: 8px;
+}
+
 .label {
-  display: inline-block;
+  display: block;
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
@@ -667,7 +671,6 @@ footer .email-input::placeholder {
 
 .input-wrap {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .input-wrap:focus-within .input-icon {
