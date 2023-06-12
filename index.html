@@ -575,20 +575,22 @@
         </div>
         <div class="form-section">
           <p class="footer-section-title">Subscribe</p>
-          <div class="subscribe-field">
-            <input
-              class="email-input"
-              type="email"
-              placeholder="E-mail"
-              name="user-email"
-            />
+          <form class="subscribe-field">
+            <label class="subscribe-label">
+              <input
+                class="email-input"
+                type="email"
+                placeholder="E-mail"
+                name="user-email"
+              />
+            </label>
             <button type="submit" class="subscribe-button">
               Subscribe
               <svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#subscribe"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -617,7 +619,7 @@
               <use href="./images/icons.svg#name"></use>
             </svg>
           </div>
-          
+
           <label class="label" for="user-phone">Phone</label>
           <div class="input-wrap">
             <input
@@ -630,7 +632,7 @@
               <use href="./images/icons.svg#phone"></use>
             </svg>
           </div>
-          
+
           <label class="label" for="user-email">Email</label>
           <div class="input-wrap">
             <input
@@ -643,7 +645,7 @@
               <use href="./images/icons.svg#email"></use>
             </svg>
           </div>
-          
+
           <label class="label" for="comment">Comment</label>
           <textarea
             class="comment"
@@ -651,7 +653,7 @@
             id="comment"
             placeholder="Text input"
           ></textarea>
-        <form>
+        </form>
 
         <label class="policy">
           <input class="checkbox" type="checkbox" />
