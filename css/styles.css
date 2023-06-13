@@ -741,7 +741,6 @@ footer .email-input::placeholder {
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  padding: 4px 3px;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
@@ -758,6 +757,10 @@ footer .email-input::placeholder {
   background-color: var(--active);
   border: none;
   fill: var(--light-background-color);
+}
+
+.checkbox:focus + .policy > .policy-custom-field {
+  outline: 2px solid rgba(77, 90, 229, 0.5);
 }
 
 .submit-modal-button {
