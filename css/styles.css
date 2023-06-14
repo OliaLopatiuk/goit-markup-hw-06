@@ -759,7 +759,7 @@ footer .email-input::placeholder {
   fill: var(--light-background-color);
 }
 
-.checkbox:focus + .policy > .policy-custom-field {
+.checkbox:focus-visible + .policy > .policy-custom-field {
   outline: 2px solid rgba(77, 90, 229, 0.5);
 }
 
